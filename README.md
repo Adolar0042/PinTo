@@ -1,5 +1,7 @@
 # PinTo
-A simple Powershell script to pin and unpin apps from the Windows 10 Taskbar and Startmenu using technosys's syspin programm.
+A simple Powershell script to pin and unpin apps from the Windows 10 Taskbar and Startmenu using [technosys's syspin programm](http://www.technosys.net/products/utils/pintotaskbar).
+
+All credit goes to them, I did nothing more than making a function that simplifies its use in a script.
 
 It temporarily downloads the .exe, uses it to pin / unpin the app and then deletes it again.
 

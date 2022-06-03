@@ -17,6 +17,9 @@ pinTo "C:\Windows\notepad.exe" unpinStart
 
 A simpler version, that can only unpin from Taskbar, but doesnt use 3rd party programs
 
+if your windows language is set to anything other than English, you will have to replace the "Unpin from Taskbar" with the correct  string from your language.
+You can find this string  by right-clicking something pinned on your Taskbar and looking at what it says instead of "Unpin from Taskbar".
+
 ## Example
 
 unpinTask "Microsoft Store"
